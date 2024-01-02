@@ -125,19 +125,24 @@ In the Redirect Link, you can use the **&APILINK.** substitution to bring throug
 
 Using a Link Attribute of **target="_blank"** opens in a new tab
 
+Use a HOT button to highlight the button
+
 ![actions image](assets/actions.png)
 
-## Contrast
+## Upgrading from a previous version
 
-On a white background you can adjust the card colours in this way
+If you encounter an ORA-02091...
 
-```css
-.luf-eachCard {
-    background-color: #F1F1F1F1;
-}
-```
+![actions image](assets/ora-02091.png)
 
-![colour image](assets/colour.png)
+... this is due to APEX bug 36147888 related to the import feature. [See here for more details](https://twitter.com/mennooo/status/1742194606454743264).
+
+To resolve this:
+1. In your app, make a note of the settings of all Actions in all occurrences of the plugin.
+2. Remove all Actions from all occurrences of the plugin in your app.
+3. Import the Plug-in (It will be succesfully imported this time).
+4. Manually restore the settings of all Actions.
+
 
 ## Images
 
@@ -153,6 +158,14 @@ Images work best with a 60x60 pixel resolution i.e
 ![image example](https://imgpile.com/images/uBmHUg.png)
 ![image example](https://imgpile.com/images/uBmoic.png)
 
+### 23.2.1 (Jan 2024)
+
+#### Enhancements
+- Aligned to the Universal Theme
+- Dark Mode support
+
+### 23.1.1 (Aug 2023)
+- Initial Release
 
 ## Credits
 
@@ -162,4 +175,4 @@ Adapted to APEX by Matt Mulvaney (https://x.com/Matt_Mulvaney)
 
 ## Donations
 
-Donations to [Saint Michael's Hospice](https://www.justgiving.com/saintmichaelshospice) are welcomee
+Donations to [Saint Michael's Hospice](https://saintmichaelshospice.org/support-our-work/donate/one-off-donation/) are welcomee

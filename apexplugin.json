@@ -1,6 +1,6 @@
 {
   "name": "Cards List UI",
-  "version": "23.1.1",
+  "version": "23.2.1",
   "description": "Cards List UI Design Template Component gives a clean card with Image, Detail and Actions. Usable as Single or Multiple",
   "keywords": ["card", "list", "template", "component", "clean"],
   "homepage": "https://github.com/lufcmattylad/Cards-List-UI-Template-Component",
@@ -15,7 +15,7 @@
     "email": "lufcmattylad+contact@gmail.com",
     "url": "https://x.com/Matt_Mulvaney",
     "twitter": "Matt_Mulvaney",
-    "donationUrl": "https://www.justgiving.com/saintmichaelshospice"
+    "donationUrl": "https://saintmichaelshospice.org/support-our-work/donate/one-off-donation/"
   },
   "repository": {
     "type": "git",
@@ -24,7 +24,7 @@
   "oracle": {
     "versions": ["23.2.0", "21.1.0", "19.1.0"],
     "apex": {
-      "versions": ["23.1.0"],
+      "versions": ["23.1.0", "23.2.0"],
       "plugin": {
         "internalName": "APEX.LUFCMATTYLAD.CARDS_LIST_UI",
         "type": "template component",
